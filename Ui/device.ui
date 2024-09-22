@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>284</width>
+    <height>212</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QFrame" name="frame">
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QPushButton" name="btn_onneworkPair">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>120</y>
+        <width>101</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Onnetwork pair</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_BLE_pair">
+      <property name="geometry">
+       <rect>
+        <x>150</x>
+        <y>120</y>
+        <width>80</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>BLE pairing</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>40</y>
+        <width>81</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Device ID</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_2">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>70</y>
+        <width>81</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Device name</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_3">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>10</y>
+        <width>91</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Device type</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_deviceID">
+      <property name="geometry">
+       <rect>
+        <x>130</x>
+        <y>40</y>
+        <width>91</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_DeviceName">
+      <property name="geometry">
+       <rect>
+        <x>130</x>
+        <y>70</y>
+        <width>91</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_DeviceType">
+      <property name="geometry">
+       <rect>
+        <x>140</x>
+        <y>10</y>
+        <width>71</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_control">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>160</y>
+        <width>80</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>control</string>
+      </property>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

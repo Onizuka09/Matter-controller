@@ -1,0 +1,7 @@
+<RCC>
+  <qresource prefix="/">
+  <file>images/gif2.gif</file>
+  <file>images/matter-logo.png</file>
+  <file>docs/Matter_device_types.json</file>
+  </qresource>
+</RCC>

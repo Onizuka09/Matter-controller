@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Lighting_device</class>
+ <widget class="QWidget" name="Lighting_device">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>605</width>
+    <height>280</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout">
+   <property name="spacing">
+    <number>0</number>
+   </property>
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <item>
+    <widget class="QFrame" name="frame">
+     <property name="maximumSize">
+      <size>
+       <width>606</width>
+       <height>325</height>
+      </size>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::NoFrame</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <widget class="QFrame" name="frame_2">
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout_3">
+         <item>
+          <widget class="QLabel" name="label_5">
+           <property name="text">
+            <string>Device</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="unpair_btn">
+           <property name="maximumSize">
+            <size>
+             <width>100</width>
+             <height>35</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>unpair</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QFrame" name="frame_3">
+        <property name="frameShape">
+         <enum>QFrame::NoFrame</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout_2">
+         <property name="leftMargin">
+          <number>0</number>
+         </property>
+         <property name="topMargin">
+          <number>0</number>
+         </property>
+         <property name="rightMargin">
+          <number>0</number>
+         </property>
+         <property name="bottomMargin">
+          <number>0</number>
+         </property>
+         <item>
+          <widget class="QFrame" name="frame_5">
+           <property name="frameShape">
+            <enum>QFrame::StyledPanel</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+           <layout class="QFormLayout" name="formLayout_2">
+            <item row="1" column="0">
+             <widget class="QLabel" name="label_6">
+              <property name="text">
+               <string>Device category</string>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="0">
+             <widget class="QLabel" name="label_8">
+              <property name="text">
+               <string>Device Name</string>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="0">
+             <widget class="QLabel" name="label_10">
+              <property name="text">
+               <string>Device InstanceName</string>
+              </property>
+             </widget>
+            </item>
+            <item row="4" column="0">
+             <widget class="QLabel" name="label_12">
+              <property name="text">
+               <string>Device IPaddr</string>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="0">
+             <widget class="QLabel" name="label_14">
+              <property name="text">
+               <string>Device info</string>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="1">
+             <widget class="QLabel" name="label_15">
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="1">
+             <widget class="QLineEdit" name="category_edit"/>
+            </item>
+            <item row="2" column="1">
+             <widget class="QLineEdit" name="devName_edit"/>
+            </item>
+            <item row="3" column="1">
+             <widget class="QLineEdit" name="instName_edit"/>
+            </item>
+            <item row="4" column="1">
+             <widget class="QLineEdit" name="IPaddr_edit"/>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item>
+          <widget class="QFrame" name="frame_4">
+           <property name="maximumSize">
+            <size>
+             <width>280</width>
+             <height>280</height>
+            </size>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::StyledPanel</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+           <layout class="QFormLayout" name="formLayout">
+            <item row="0" column="0">
+             <widget class="QLabel" name="label_3">
+              <property name="text">
+               <string>Control panel</string>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="1">
+             <widget class="QLabel" name="label_4">
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="0">
+             <widget class="QLabel" name="label">
+              <property name="text">
+               <string>Toggle (OnOff)</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="1">
+             <widget class="QPushButton" name="toggle_btn">
+              <property name="text">
+               <string>Toogle (On)</string>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="0">
+             <widget class="QLabel" name="label_2">
+              <property name="text">
+               <string>set lighting value</string>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="1">
+             <widget class="QSlider" name="horizontalSlider">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

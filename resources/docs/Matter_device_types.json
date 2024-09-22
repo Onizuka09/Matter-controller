@@ -1,0 +1,163 @@
+{
+  "lighting_devices": [
+    {
+      "type": "On/Off",
+      "hex_value": "0x0100",
+      "features": ["on/off", "level control"]
+    },
+    {
+      "type": "Dimmable Light",
+      "hex_value": "0x0101",
+      "features": ["on/off", "level control"]
+    },
+    {
+      "type": "Color Temperature Light",
+      "hex_value": "0x010c",
+      "features": ["on/off", "level control", "color control"]
+    },
+    {
+      "type": "Extended Color Light",
+      "hex_value": "0x010d",
+      "features": ["on/off", "level control", "color control"]
+    }
+  ],
+  "smart_plugs_and_actuators": [
+    {
+      "type": "Plug-in Unit",
+      "hex_value": "0x010A"
+    },
+    {
+      "type": "Dimmable Plug-In Unit",
+      "hex_value": "0x010B"
+    },
+    {
+      "type": "Pump",
+      "hex_value": "0x0303"
+    }
+  ],
+  "switches_and_controls": [
+    {
+      "type": "On/Off Light Switch",
+      "hex_value": "0x0103"
+    },
+    {
+      "type": "Dimmer Switch",
+      "hex_value": "0x0104"
+    },
+    {
+      "type": "Color Dimmer Switch",
+      "hex_value": "0x0105"
+    },
+    {
+      "type": "Control Bridge",
+      "hex_value": "0x0840"
+    },
+    {
+      "type": "Pump Controller",
+      "hex_value": "0x0304"
+    },
+    {
+      "type": "Generic Switch",
+      "hex_value": "0x000F"
+    }
+  ],
+  "sensors": [
+    {
+      "type": "Contact Sensor",
+      "hex_value": "0x0015"
+    },
+    {
+      "type": "Light Sensor",
+      "hex_value": "0x0106"
+    },
+    {
+      "type": "Occupancy Sensor",
+      "hex_value": "0x0107"
+    },
+    {
+      "type": "Temperature Sensor",
+      "hex_value": "0x0302"
+    },
+    {
+      "type": "Pressure Sensor",
+      "hex_value": "0x0305"
+    },
+    {
+      "type": "Flow Sensor",
+      "hex_value": "0x0306"
+    },
+    {
+      "type": "Humidity Sensor",
+      "hex_value": "0x0307"
+    },
+    {
+      "type": "On/Off Sensor",
+      "hex_value": "0x0850"
+    }
+  ],
+  "closures": [
+    {
+      "type": "Door Lock",
+      "hex_value": "0x000A"
+    },
+    {
+      "type": "Door Lock Controller",
+      "hex_value": "0x000B"
+    },
+    {
+      "type": "Window Covering",
+      "hex_value": "0x0202"
+    },
+    {
+      "type": "Window Covering Controller",
+      "hex_value": "0x0203"
+    }
+  ],
+  "hvac": [
+    {
+      "type": "Heating/Cooling Unit",
+      "hex_value": "0x0300"
+    },
+    {
+      "type": "Thermostat",
+      "hex_value": "0x0301"
+    },
+    {
+      "type": "Fan",
+      "hex_value": "0x002B"
+    }
+  ],
+  "media": [
+    {
+      "type": "Basic Video Player",
+      "hex_value": "0x0028"
+    },
+    {
+      "type": "Casting Video Player",
+      "hex_value": "0x0023"
+    },
+    {
+      "type": "Speaker",
+      "hex_value": "0x0022"
+    },
+    {
+      "type": "Content App",
+      "hex_value": "0x0024"
+    },
+    {
+      "type": "Casting Video Client",
+      "hex_value": "0x0029"
+    },
+    {
+      "type": "Video Remote Control",
+      "hex_value": "0x002A"
+    }
+  ],
+  "generic": [
+    {
+      "type": "Mode Select",
+      "hex_value": "0x0027"
+    }
+  ]
+}
+
