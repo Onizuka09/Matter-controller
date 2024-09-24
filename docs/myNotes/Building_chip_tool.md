@@ -1,0 +1,1 @@
+https://github.com/project-chip/connectedhomeip/blob/master/docs/guides/chip_tool_guide.md
